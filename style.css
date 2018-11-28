@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+
+
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+	width: 60%;
+	display: block;
+	padding: 10px;
+	margin: 0 auto;
+	margin-top: 50px;
+	transition-duration: 0.8s;
+}
+
+h1:hover {
+	transition-duration: 0.8s;
+	transform: translateY(20px);
+	background-color: red;
+}
+
+section {
+	margin-top: 100px;
+}
+
+main {
+	margin-top: 50px;
+}
